@@ -1,0 +1,15 @@
+.tables-container {
+  display: flex;
+
+  .table-wrapper {
+    max-height: 300px;
+    overflow-y: auto;
+    flex-grow: 1;
+
+    table {
+      width: 100%;
+    }
+  }
+}
+
+
